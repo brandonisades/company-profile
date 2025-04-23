@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
               <h1 className="text-4xl sm:text-6xl font-extrabold ">Membantu Bisnis Anda Lebih Berteknologi</h1>
                 <p className="text-sm sm:text-sm font-extrabold ">Kami adalah perusahaan bidang teknologi yang menawarkan solusi digital yang canggih dan bisa diandalkan</p>
                   <button className="w-[250px] rounded px-4 py-2 text-sm hover:bg-gray-200 transition  bg-white text-black cursor-pointer font-bold">
-                    <a href="/#contact">Hubungi Kami</a>
+                    <Link href="/#contact">Hubungi Kami</Link>
                   </button>
             </div>
 
